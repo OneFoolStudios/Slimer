@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 export (int) var SPEED = 4000
 #export (int) var GRAVITY = 500
-export (int) var JUMPDIST = 250
+export (int) var JUMPDIST = 300
 
 var velocity = Vector2()  # the character's movement vector
 var screensize  # size of the game window

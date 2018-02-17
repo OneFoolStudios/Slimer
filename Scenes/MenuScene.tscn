@@ -39,7 +39,11 @@ _sections_unfolded = [ "Applied Forces", "Collision" ]
 
 z_index = 50
 _sections_unfolded = [ "Z Index" ]
+<<<<<<< HEAD
 SPEED = 4000
+=======
+JUMPDIST = 300
+>>>>>>> ef80da353386f638f21503ede1ab786f111535f1
 
 [node name="Seed2" parent="." index="3" instance=ExtResource( 2 )]
 
