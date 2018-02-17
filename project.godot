@@ -12,8 +12,8 @@ config_version=3
 
 config/name="Untited Kinsmanship of Fools"
 run/main_scene="res://Levels/level1.tscn"
-boot_splash/image="res://FoolChessLoadScreen.png"
-config/icon="res://icon.png"
+boot_splash/image="res://source/FoolChessLoadScreen.png"
+config/icon="res://source/icon.png"
 
 [display]
 
