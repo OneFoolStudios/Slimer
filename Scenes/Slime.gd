@@ -1,22 +1,22 @@
 extends KinematicBody2D
 
 export (int) var SPEED = 5000
-export (int) var GRAVITY = 500
+#export (int) var GRAVITY = 500
 export (int) var JUMPDIST = 250
 
-var velocity = Vector2()  # the player's movement vector
+var velocity = Vector2()  # the character's movement vector
 var screensize  # size of the game window
-var localSeed # seed where the player is on
-var lastSeed # seed where the player was on
-var pos = Vector2()
-var endPos = Vector2()
-var distance = 0
-var bigPos = false
+var localSeed # seed where the character is on
+var lastSeed # seed where the character was on
+var pos = Vector2() #position of the character
+var endPos = Vector2() #position where the character is jumping to
+var distance = 0 #distance between the character and the jumping desination
+var bigPos = false #small check to know if it's 'a-b' or 'b-a' (to know when player reached the jump destination)
 
 
 func _ready():
 	screensize = get_viewport_rect().size
-	localSeed = get_node("/root/level1/firstSeed")
+	localSeed = get_node("/root/level1/firstSeed") #a starting seed
 	
 func _process(delta):
 	
