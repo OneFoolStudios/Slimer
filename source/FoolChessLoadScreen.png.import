@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Grass.png-ff92a3c9a7a270cd183ab32eca376733.stex"
+path="res://.import/FoolChessLoadScreen.png-17cd01ac85ff09914c212455a8ec3e9f.stex"
 
 [deps]
 
-source_file="res://Grass.png"
-source_md5="f29a0ba5715b9564b8cab75025bfd92d"
+source_file="res://source/FoolChessLoadScreen.png"
+source_md5="9c97d0574c5d2ab003386ed402a91f6d"
 
-dest_files=[ "res://.import/Grass.png-ff92a3c9a7a270cd183ab32eca376733.stex" ]
-dest_md5="8a5eec28a78217b2cc87169d39d2c093"
+dest_files=[ "res://.import/FoolChessLoadScreen.png-17cd01ac85ff09914c212455a8ec3e9f.stex" ]
+dest_md5="1b7272b2ea6931742c847ee5ae2277f8"
 
 [params]
 

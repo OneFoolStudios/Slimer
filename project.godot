@@ -8,12 +8,10 @@
 
 config_version=3
 
-frame=null
-
 [application]
 
 config/name="Untited Kinsmanship of Fools"
-run/main_scene="res://Scenes/MenuScene.tscn"
+run/main_scene="res://Levels/level1.tscn"
 boot_splash/image="res://FoolChessLoadScreen.png"
 config/icon="res://icon.png"
 

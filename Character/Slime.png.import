@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Slime.png-b312e9c3f00893baf629940a6de3147c.stex"
+path="res://.import/Slime.png-cb9237c060158e8f6908e35e94028c1f.stex"
 
 [deps]
 
-source_file="res://Slime.png"
+source_file="res://Character/Slime.png"
 source_md5="81885bdb4492782e3304d442e7c09a63"
 
-dest_files=[ "res://.import/Slime.png-b312e9c3f00893baf629940a6de3147c.stex" ]
+dest_files=[ "res://.import/Slime.png-cb9237c060158e8f6908e35e94028c1f.stex" ]
 dest_md5="afdcc4d0e2516c807c1b8fe92212e0fa"
 
 [params]

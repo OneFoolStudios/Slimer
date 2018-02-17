@@ -1,13 +1,13 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Scenes/Slime.gd" type="Script" id=1]
-[ext_resource path="res://Slime.png" type="Texture" id=2]
-[ext_resource path="res://SlimeCompact.png" type="Texture" id=3]
+[ext_resource path="res://Character/Slime.gd" type="Script" id=1]
+[ext_resource path="res://Character/Slime.png" type="Texture" id=2]
+[ext_resource path="res://Character/SlimeCompact.png" type="Texture" id=3]
 
 [sub_resource type="SpriteFrames" id=1]
 
 animations = [ {
-"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 2 ) ],
+"frames": [ ExtResource( 2 ), ExtResource( 3 ) ],
 "loop": true,
 "name": "Fly",
 "speed": 15.0
@@ -19,16 +19,15 @@ _sections_unfolded = [ "Resource" ]
 custom_solver_bias = 0.0
 radius = 105.0
 
-[node name="Slime" type="KinematicBody2D" index="0"]
+[node name="Slime" type="KinematicBody2D"]
 
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 1 )
-SPEED = 5000
-GRAVITY = 500
-JUMPDIST = 250
+SPEED = 4000
+JUMPDIST = 300
 
 [node name="Area2D" type="Area2D" parent="." index="0"]
 
